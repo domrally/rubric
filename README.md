@@ -1,9 +1,6 @@
-# rubric
-duotone code editor color theme
+# Rubric Color Theme
 
 <details>
-<summary>... more</summary>
-
-Hello, world!
+<summary>... Skimmable syntax highlighting with dynamic emphasis</summary>
 
 </details>

@@ -1,47 +1,7 @@
 {
 	"name": "rubric",
 	"displayName": "Rubric Color Theme",
-	"version": "0.0.1",
-	"description": "",
-	"license": "SEE LICENSE IN LICENSE.txt",
-	"scripts": {
-		"stop": "npx eslint --fix && npx prettier --write .",
-		"restart": "node src",
-		"test": "npx ts-node src/tests && npx eslint && npx prettier --check ."
-	},
-	"devDependencies": {
-		"@tsconfig/node18-strictest": "*",
-		"@types/figlet": "*",
-		"@types/node": "*",
-		"@typescript-eslint/eslint-plugin": "*",
-		"@typescript-eslint/parser": "*",
-		"ansi-colors": "*",
-		"culori": "*",
-		"eslint": "*",
-		"eslint-config-alloy": "*",
-		"eslint-config-prettier": "*",
-		"figlet": "*",
-		"prettier": "*",
-		"ts-node": "*",
-		"typescript": "*"
-	},
-	"icon": "icon.png",
-	"galleryBanner": {
-		"color": "#333333",
-		"theme": "light"
-	},
-	"publisher": "dommandy",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/domrally/rubric.git"
-	},
-	"engines": {
-		"vscode": "^1.61.0"
-	},
-	"categories": [
-		"Themes"
-	],
-	"keywords": [],
+	"description": "Skimmable syntax highlighting with dynamic emphasis",
 	"contributes": {
 		"themes": [
 			{
@@ -50,5 +10,38 @@
 				"path": "./themes/dark-color-theme.json"
 			}
 		]
-	}
+	},
+	"galleryBanner": {
+		"color": "#feacfd",
+		"theme": "dark"
+	},
+	"keywords": [],
+	"version": "0.0.1",
+	"publisher": "dommandy",
+	"icon": "icon.png",
+	"license": "SEE LICENSE IN LICENSE.txt",
+	"engines": {
+		"vscode": "^1.61.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/domrally/rubric.git"
+	},
+	"scripts": {
+		"start": "node ./"
+	},
+	"devDependencies": {
+		"ansi-colors": "*",
+		"culori": "*",
+		"eslint": "*",
+		"eslint-config-alloy": "*",
+		"eslint-config-prettier": "*",
+		"figlet": "*",
+		"prettier": "*",
+		"vsce": "*"
+	},
+	"type": "module"
 }
