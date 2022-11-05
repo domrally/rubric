@@ -18,7 +18,7 @@
 	"keywords": [],
 	"version": "0.0.1",
 	"publisher": "dommandy",
-	"icon": "./docs/icon.png",
+	"icon": "icon.png",
 	"license": "SEE LICENSE IN LICENSE.txt",
 	"engines": {
 		"vscode": "^1.61.0"
