@@ -1,0 +1,13 @@
+import { Example } from "./Example"
+
+/**
+ * ...
+ * @returns ...
+ */
+export function Exemplify() {
+	// ...
+	const example = new Example()
+
+	// ...
+	return example.Property
+}

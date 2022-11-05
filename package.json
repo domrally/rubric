@@ -1,0 +1,47 @@
+{
+	"name": "rubric",
+	"displayName": "Rubric Color Theme",
+	"description": "Skimmable syntax highlighting with dynamic emphasis",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Rubric Dark Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark-color-theme.json"
+			}
+		]
+	},
+	"galleryBanner": {
+		"color": "#feacfd",
+		"theme": "dark"
+	},
+	"keywords": [],
+	"version": "0.0.1",
+	"publisher": "dommandy",
+	"icon": "./docs/icon.png",
+	"license": "SEE LICENSE IN LICENSE.txt",
+	"engines": {
+		"vscode": "^1.61.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/domrally/rubric.git"
+	},
+	"scripts": {
+		"start": "node ./"
+	},
+	"devDependencies": {
+		"ansi-colors": "*",
+		"culori": "*",
+		"eslint": "*",
+		"eslint-config-alloy": "*",
+		"eslint-config-prettier": "*",
+		"figlet": "*",
+		"prettier": "*",
+		"vsce": "*"
+	},
+	"type": "module"
+}

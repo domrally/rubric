@@ -1,0 +1,5 @@
+docs/
+build/
+LICENSE
+node_modules/
+package-lock.json
