@@ -1,7 +1,7 @@
 {
 	"name": "rubric",
 	"displayName": "Rubric Color Theme",
-	"description": "Skimmable syntax highlighting with dynamic emphasis",
+	"description": "Skimmable complementary scheme",
 	"contributes": {
 		"themes": [
 			{
@@ -13,9 +13,27 @@
 	},
 	"galleryBanner": {
 		"color": "#feacfd",
-		"theme": "dark"
+		"theme": "light"
 	},
-	"keywords": [],
+	"keywords": [
+		"complementary",
+		"contrast",
+		"dark",
+		"duotone",
+		"dynamic",
+		"emphasis",
+		"greyscale",
+		"headline",
+		"highlight",
+		"minimalist",
+		"oklab",
+		"oklch",
+		"okhsl",
+		"okhsv",
+		"rubrication",
+		"skimmable",
+		"tritone"
+	],
 	"version": "0.0.1",
 	"publisher": "dommandy",
 	"icon": "icon.png",
