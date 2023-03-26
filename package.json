@@ -1,22 +1,48 @@
 {
 	"name": "rubric",
 	"displayName": "Rubric Color Theme",
-	"description": "Skimmable syntax highlighting with dynamic emphasis",
+	"description": "Skimmable complementary scheme",
 	"contributes": {
 		"themes": [
 			{
-				"label": "Rubric Dark Theme",
+				"label": "Rubric Dark",
 				"uiTheme": "vs-dark",
 				"path": "./themes/dark-color-theme.json"
+			},
+			{
+				"label": "Rubric Dark Contrast",
+				"uiTheme": "hc-black",
+				"path": "./themes/dark_contrast-color-theme.json"
 			}
 		]
 	},
 	"galleryBanner": {
-		"color": "#feacfd",
-		"theme": "dark"
+		"color": "#fea9fd",
+		"theme": "light"
 	},
-	"keywords": [],
-	"version": "0.1.0",
+	"keywords": [
+		"blind",
+		"complementary",
+		"contrast",
+		"dark",
+		"deficiency",
+		"duotone",
+		"dynamic",
+		"emphasis",
+		"greyscale",
+		"headline",
+		"highlight",
+		"minimalist",
+		"oklab",
+		"oklch",
+		"okhsl",
+		"okhsv",
+		"rubrication",
+		"skimmable",
+		"tritone",
+		"vision"
+	],
+	"version": "0.0.1",
 	"publisher": "dommandy",
 	"icon": "icon.png",
 	"license": "SEE LICENSE IN LICENSE.txt",
@@ -31,16 +57,20 @@
 		"url": "https://github.com/domrally/rubric.git"
 	},
 	"scripts": {
-		"start": "node ./"
+		"start": "node src"
 	},
-	"devDependencies": {
+	"dependencies": {
+		"@bjornlu/colorblind": "*",
 		"ansi-colors": "*",
+		"color-diff": "*",
 		"culori": "*",
 		"eslint": "*",
 		"eslint-config-alloy": "*",
 		"eslint-config-prettier": "*",
 		"figlet": "*",
+		"get-contrast": "*",
 		"prettier": "*",
+		"voidcolor": "^1.0.3",
 		"vsce": "*"
 	},
 	"type": "module"
