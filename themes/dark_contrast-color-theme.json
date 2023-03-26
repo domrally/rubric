@@ -1,0 +1,100 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+	"type": "dark",
+	"colors": {
+		"focusBorder": "#0000",
+		"foreground": "#c8c8c8",
+		"disabledForeground": "#aeaeae",
+		"widget.shadow": "#0000",
+		"selection.background": "#0a0a0a",
+		"descriptionForeground": "#aeaeae",
+		"errorForeground": "#33fa1f",
+		"icon.foreground": "#aeaeae",
+		"sash.hoverBorder": "#a2bcff",
+		"activityBar.background": "#0a0a0a",
+		"editor.background": "#0a0a0a",
+		"editor.foreground": "#c8c8c8",
+		"editor.hoverHighlightBackground": "#000",
+		"editor.lineHighlightBackground": "#000",
+		"editor.lineHighlightBorder": "#0000",
+		"editor.selectionBackground": "#0f0f0f",
+		"editor.selectionHighlightBackground": "#0f0f0f",
+		"editor.wordHighlightBackground": "#0f0f0f",
+		"editor.wordHighlightBorder": "#0000",
+		"editor.wordHighlightStrongBackground": "#0f0f0f",
+		"editor.wordHighlightStrongBorder": "#0f0f0f",
+		"editorBracketMatch.background": "#0f0f0f",
+		"editorBracketMatch.border": "#0000",
+		"editorCursor.foreground": "#fff",
+		"editorLineNumber.activeForeground": "#fff",
+		"editorLineNumber.foreground": "#aeaeae",
+		"list.activeSelectionBackground": "#0a0a0a",
+		"list.activeSelectionForeground": "#fff",
+		"list.inactiveSelectionBackground": "#0a0a0a",
+		"list.inactiveSelectionForeground": "#fff",
+		"sideBar.background": "#0a0a0a",
+		"sideBarSectionHeader.background": "#0a0a0a"
+	},
+	"tokenColors": [
+		{
+			"scope": ["keyword", "punctuation", "storage"],
+			"settings": {
+				"foreground": "#aeaeae"
+			}
+		},
+		{
+			"scope": ["string", "constant", "support.constant"],
+			"settings": {
+				"foreground": "#c8c8c8",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": ["support", "keyword.operator.new", "entity.name"],
+			"settings": {
+				"foreground": "#33fa1f"
+			}
+		},
+		{
+			"scope": ["comment"],
+			"settings": {
+				"foreground": "#a2bcff"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.type.alias",
+				"entity.name.type.class",
+				"entity.name.type.interface",
+				"meta.definition.function"
+			],
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "token.info-token",
+			"settings": {
+				"foreground": "#a2bcff"
+			}
+		},
+		{
+			"scope": "token.warn-token",
+			"settings": {
+				"foreground": "#cd9731"
+			}
+		},
+		{
+			"scope": "token.error-token",
+			"settings": {
+				"foreground": "#f44747"
+			}
+		},
+		{
+			"scope": "token.debug-token",
+			"settings": {
+				"foreground": "#33fa1f"
+			}
+		}
+	]
+}
