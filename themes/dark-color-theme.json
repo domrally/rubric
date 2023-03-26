@@ -12,7 +12,7 @@
 		"icon.foreground": "#949494",
 		"sash.hoverBorder": "#00747a",
 		"activityBar.background": "#161616",
-		"editor.background": "#333",
+		"editor.background": "#222",
 		"editor.foreground": "#aeaeae",
 		"editor.hoverHighlightBackground": "#000",
 		"editor.lineHighlightBackground": "#000",
@@ -45,7 +45,7 @@
 		{
 			"scope": ["string", "constant", "support.constant"],
 			"settings": {
-				"foreground": "#fbb",
+				"foreground": "#f9f",
 				"fontStyle": "italic"
 			}
 		},
@@ -63,8 +63,8 @@
 				"meta.definition.function"
 			],
 			"settings": {
-				"foreground": "#f00",
-				"fontStyle": "bold underline"
+				"foreground": "#0f0",
+				"fontStyle": "bold"
 			}
 		}
 	]
