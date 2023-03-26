@@ -5,20 +5,27 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Rubric Dark Theme",
+				"label": "Rubric Dark",
 				"uiTheme": "vs-dark",
 				"path": "./themes/dark-color-theme.json"
+			},
+			{
+				"label": "Rubric Dark Contrast",
+				"uiTheme": "hc-black",
+				"path": "./themes/dark_contrast-color-theme.json"
 			}
 		]
 	},
 	"galleryBanner": {
-		"color": "#feacfd",
+		"color": "#fea9fd",
 		"theme": "light"
 	},
 	"keywords": [
+		"blind",
 		"complementary",
 		"contrast",
 		"dark",
+		"deficiency",
 		"duotone",
 		"dynamic",
 		"emphasis",
@@ -32,7 +39,8 @@
 		"okhsv",
 		"rubrication",
 		"skimmable",
-		"tritone"
+		"tritone",
+		"vision"
 	],
 	"version": "0.0.1",
 	"publisher": "dommandy",
@@ -49,16 +57,20 @@
 		"url": "https://github.com/domrally/rubric.git"
 	},
 	"scripts": {
-		"start": "node ./"
+		"start": "node src"
 	},
-	"devDependencies": {
+	"dependencies": {
+		"@bjornlu/colorblind": "*",
 		"ansi-colors": "*",
+		"color-diff": "*",
 		"culori": "*",
 		"eslint": "*",
 		"eslint-config-alloy": "*",
 		"eslint-config-prettier": "*",
 		"figlet": "*",
+		"get-contrast": "*",
 		"prettier": "*",
+		"voidcolor": "^1.0.3",
 		"vsce": "*"
 	},
 	"type": "module"
