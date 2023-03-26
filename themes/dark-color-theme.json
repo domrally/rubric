@@ -4,42 +4,47 @@
 	"colors": {
 		"focusBorder": "#0000",
 		"foreground": "#bbb",
-		"disabledForeground": "#949494",
+		"disabledForeground": "#999",
 		"widget.shadow": "#0000",
-		"selection.background": "#161616",
-		"descriptionForeground": "#949494",
-		"errorForeground": "#fc8dfd",
-		"icon.foreground": "#949494",
+		"selection.background": "#111",
+		"descriptionForeground": "#999",
+		"icon.foreground": "#999",
 		"sash.hoverBorder": "#00747a",
-		"activityBar.background": "#161616",
+		"activityBar.background": "#111",
 		"editor.background": "#222",
-		"editor.foreground": "#aeaeae",
+		"editor.foreground": "#888",
 		"editor.hoverHighlightBackground": "#000",
 		"editor.lineHighlightBackground": "#000",
 		"editor.lineHighlightBorder": "#0000",
 		"editor.selectionBackground": "#000",
-		"editor.selectionHighlightBackground": "#222222",
-		"editor.wordHighlightBackground": "#222222",
+		"editor.selectionHighlightBackground": "#333",
+		"editor.wordHighlightBackground": "#333",
 		"editor.wordHighlightBorder": "#0000",
-		"editor.wordHighlightStrongBackground": "#222222",
-		"editor.wordHighlightStrongBorder": "#222222",
-		"editorBracketMatch.background": "#222222",
+		"editor.wordHighlightStrongBackground": "#333",
+		"editor.wordHighlightStrongBorder": "#333",
+		"editorBracketMatch.background": "#333",
 		"editorBracketMatch.border": "#0000",
 		"editorCursor.foreground": "#fff",
 		"editorLineNumber.activeForeground": "#fff",
-		"editorLineNumber.foreground": "#949494",
-		"list.activeSelectionBackground": "#161616",
+		"editorLineNumber.foreground": "#999",
+		"list.activeSelectionBackground": "#111",
 		"list.activeSelectionForeground": "#fff",
-		"list.inactiveSelectionBackground": "#161616",
+		"list.inactiveSelectionBackground": "#111",
 		"list.inactiveSelectionForeground": "#fff",
-		"sideBar.background": "#161616",
-		"sideBarSectionHeader.background": "#161616"
+		"sideBar.background": "#111",
+		"sideBarSectionHeader.background": "#111"
 	},
 	"tokenColors": [
 		{
+			"scope": ["comment"],
+			"settings": {
+				"foreground": "#fff"
+			}
+		},
+		{
 			"scope": ["keyword", "punctuation", "storage"],
 			"settings": {
-				"foreground": "#555"
+				"foreground": "#444"
 			}
 		},
 		{
@@ -50,12 +55,6 @@
 			}
 		},
 		{
-			"scope": ["comment"],
-			"settings": {
-				"foreground": "#fff"
-			}
-		},
-		{
 			"scope": [
 				"entity.name.type.alias",
 				"entity.name.type.class",
@@ -63,7 +62,7 @@
 				"meta.definition.function"
 			],
 			"settings": {
-				"foreground": "#0f0",
+				"foreground": "#1f1",
 				"fontStyle": "bold"
 			}
 		}

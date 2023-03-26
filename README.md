@@ -22,7 +22,7 @@ Skimmable complementary palette
 | --------------------- | ------- | ---------------------------- | ------------------------ |
 | **THEME**             |         |                              |                          |
 |                       |         |                              |                          |
-| Rubric Dark           | cyan    | 10 - 20                      | 5 - 50                   |
+| Rubric Dark           | cyan    |                              |                          |
 |                       | magenta |                              |                          |
 |                       | grey    |                              |                          |
 |                       | fade    |                              |                          |
@@ -41,21 +41,6 @@ Skimmable complementary palette
 |                       | blue    |                              |                          |
 |                       | grey    |                              |                          |
 |                       | fade    |                              |                          |
-
-### Brightness
-
-- 3 oklch lightness levels each of:
-  - text
-  - background
-  - highlight
-
-### Colorfulness
-
-Both hues have equal oklch chroma, leading to about the same perceived colorfulness
-
-### Hue
-
-2 complementary hues with local maximum oklch chroma
 
 ## Thank you
 
